@@ -11,5 +11,8 @@ namespace BE_Propiedades
         public string Nombre { get; set; }
         public int Minutos { get; set; }
         public DateTime Fecha {get;set;}
+
+        public int Costo { get; set; }
+
     }
 }

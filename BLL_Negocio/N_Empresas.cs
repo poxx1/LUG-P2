@@ -8,6 +8,12 @@ namespace BLL_Negocio
 {
     public class N_Empresas
     {
+        public List<BE_Empresas> Load()
+        {
+            //instancio un objeto de la clase Mapper y esta interacture con la BD
+            var mj = new M_Empresas();
+            return mj.Load();
+        }
         public bool Insert(BE_Empresas j)
         {
             var mj = new M_Empresas();

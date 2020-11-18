@@ -2,10 +2,6 @@
 using BLL_Negocio;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace UI
@@ -27,8 +23,6 @@ namespace UI
 
             n_Empresas = new N_Empresas();
             n_Empresas.Insert(bE_Empresas);
-
-
         }
 
         private void SetEmpresa()
@@ -50,6 +44,21 @@ namespace UI
             n_Empresas = new N_Empresas();
             n_Empresas.Insert(bE_Empresas);
 
+            LoadE();
+
+        }
+
+        private void UI_Empresas_Load(object sender, EventArgs e)
+        {
+            LoadE();
+        }
+
+        private void LoadE()
+        {
+            var c = new N_Empresas();
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = c.Load();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
         }
     }
 }

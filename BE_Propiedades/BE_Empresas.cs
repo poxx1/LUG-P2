@@ -12,5 +12,7 @@ namespace BE_Propiedades
         public string Correo { get; set; }
         public BE_Servicios Servicio { get; set; }
 
+        public int ServicioN { get; set; }
+
     }
 }
