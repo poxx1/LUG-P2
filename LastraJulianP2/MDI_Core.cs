@@ -21,5 +21,15 @@ namespace LastraJulianP2
         {
 
         }
+
+        private void EXIT_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }
