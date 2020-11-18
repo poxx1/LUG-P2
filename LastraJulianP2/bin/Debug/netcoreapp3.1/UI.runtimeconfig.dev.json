@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Poxi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Poxi\\.nuget\\packages"
+    ]
+  }
+}
