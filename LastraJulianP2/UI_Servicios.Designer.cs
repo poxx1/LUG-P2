@@ -46,6 +46,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,6 +59,7 @@
             this.bt_Insert.TabIndex = 0;
             this.bt_Insert.Text = "INSERT";
             this.bt_Insert.UseVisualStyleBackColor = true;
+            this.bt_Insert.Click += new System.EventHandler(this.bt_Insert_Click);
             // 
             // bt_Update
             // 
@@ -208,11 +211,29 @@
             this.dataGridView1.TabIndex = 17;
             this.dataGridView1.Text = "dataGridView1";
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(235, 140);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 23);
+            this.textBox5.TabIndex = 12;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(235, 122);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(38, 15);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Costo";
+            // 
             // UI_Servicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(371, 349);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
@@ -232,7 +253,7 @@
             this.Controls.Add(this.bt_Update);
             this.Controls.Add(this.bt_Insert);
             this.Name = "UI_Servicios";
-            this.Text = "ABM2";
+            this.Text = "sv";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -259,5 +280,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label7;
     }
 }

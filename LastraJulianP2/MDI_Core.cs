@@ -74,5 +74,26 @@ namespace LastraJulianP2
                 emp.Show();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            bool is_Open = false;
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Text == "sv")
+                {
+                    is_Open = true;
+                    f.Focus();
+                    break;
+                }
+            }
+
+            if (is_Open == false)
+            {
+                var emp = new UI_Servicios();
+                emp.MdiParent = this;
+                emp.Show();
+            }
+        }
     }
 }

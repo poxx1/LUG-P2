@@ -54,8 +54,14 @@ namespace BLL_Negocio
             p2.ParameterName = "@Costo";
             p2.Value = srv.Costo;
             p2.SqlDbType = System.Data.SqlDbType.Int;
-            aR.Add(p2);
-            
+            aR.Add(p6);
+
+            var p7 = new SqlParameter();
+            p2.ParameterName = "@Tipo";
+            p2.Value = srv.Costo;
+            p2.SqlDbType = System.Data.SqlDbType.Int;
+            aR.Add(p7);
+
             c.Write(query, aR);
         }
     }
