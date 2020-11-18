@@ -62,3 +62,4 @@ C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\bin\Debug\netcoreapp3
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\bin\Debug\netcoreapp3.1\DAL_SQL.pdb
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\bin\Debug\netcoreapp3.1\Mapper.pdb
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.csproj.CopyComplete
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.UITransmisionXML.resources

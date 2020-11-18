@@ -1,14 +1,14 @@
-﻿namespace LastraJulianP2
+﻿namespace UI
 {
-    partial class MDI_Core
+    partial class UITransmisionXML
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,94 +23,87 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.bt_Exit = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // bt_Exit
+            // listBox1
             // 
-            this.bt_Exit.BackColor = System.Drawing.Color.Green;
-            this.bt_Exit.ForeColor = System.Drawing.Color.White;
-            this.bt_Exit.Location = new System.Drawing.Point(506, 387);
-            this.bt_Exit.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.bt_Exit.Name = "bt_Exit";
-            this.bt_Exit.Size = new System.Drawing.Size(54, 30);
-            this.bt_Exit.TabIndex = 7;
-            this.bt_Exit.Text = "EXIT";
-            this.bt_Exit.UseVisualStyleBackColor = false;
-            this.bt_Exit.Click += new System.EventHandler(this.EXIT_Click);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(13, 12);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(226, 109);
+            this.listBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(232, 27);
+            this.button1.Location = new System.Drawing.Point(244, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "ABM1";
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(313, 27);
+            this.button2.Location = new System.Drawing.Point(245, 42);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "ABM2";
+            this.button2.TabIndex = 2;
+            this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(394, 27);
+            this.button3.Location = new System.Drawing.Point(245, 72);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 9;
+            this.button3.TabIndex = 3;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(475, 27);
+            this.button4.Location = new System.Drawing.Point(245, 102);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
+            this.button4.TabIndex = 4;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // MDI_Core
+            // UITransmisionXML
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 420);
+            this.ClientSize = new System.Drawing.Size(328, 134);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.bt_Exit);
-            this.Font = new System.Drawing.Font("Bahnschrift Condensed", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Name = "MDI_Core";
-            this.Text = "TestMDI Parent";
+            this.Controls.Add(this.listBox1);
+            this.Name = "UITransmisionXML";
+            this.Text = "xml";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button bt_Exit;
+
+        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }
 }
-

@@ -53,5 +53,26 @@ namespace LastraJulianP2
                 emp.Show();
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            bool is_Open = false;
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Text == "xml")
+                {
+                    is_Open = true;
+                    f.Focus();
+                    break;
+                }
+            }
+
+            if (is_Open == false)
+            {
+                var emp = new UITransmisionXML();
+                emp.MdiParent = this;
+                emp.Show();
+            }
+        }
     }
 }
