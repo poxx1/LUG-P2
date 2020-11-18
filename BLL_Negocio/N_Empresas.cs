@@ -4,7 +4,8 @@ using System.Text;
 
 namespace BLL_Negocio
 {
-    class N_Empresas
+    public class N_Empresas
     {
+
     }
 }

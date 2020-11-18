@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BE_Propiedades\BE_Propiedades.csproj" />
+    <ProjectReference Include="..\BLL_Negocio\BLL_Negocio.csproj" />
+    <ProjectReference Include="..\DAL_SQL\DAL_SQL.csproj" />
+  </ItemGroup>
+
 </Project>
