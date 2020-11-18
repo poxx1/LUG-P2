@@ -8,9 +8,7 @@ C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapp
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapper.pdb
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapper.csprojAssemblyReference.cache
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\bin\Debug\netstandard2.0\BE_Propiedades.dll
-C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\bin\Debug\netstandard2.0\BLL_Negocio.dll
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\bin\Debug\netstandard2.0\DAL_SQL.dll
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\bin\Debug\netstandard2.0\BE_Propiedades.pdb
-C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\bin\Debug\netstandard2.0\BLL_Negocio.pdb
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\bin\Debug\netstandard2.0\DAL_SQL.pdb
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapper.csproj.CopyComplete

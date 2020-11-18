@@ -63,6 +63,7 @@
             this.bt_Delete.TabIndex = 2;
             this.bt_Delete.Text = "DELETE";
             this.bt_Delete.UseVisualStyleBackColor = true;
+            this.bt_Delete.Click += new System.EventHandler(this.bt_Delete_Click);
             // 
             // bt_Update
             // 
@@ -81,6 +82,7 @@
             this.bt_Insert.TabIndex = 0;
             this.bt_Insert.Text = "INSERT";
             this.bt_Insert.UseVisualStyleBackColor = true;
+            this.bt_Insert.Click += new System.EventHandler(this.bt_Insert_Click);
             // 
             // label1
             // 
@@ -193,7 +195,7 @@
             this.Controls.Add(this.bt_Delete);
             this.Controls.Add(this.bt_Close);
             this.Name = "UI_Empresas";
-            this.Text = "ABM1";
+            this.Text = "UI_Empresas";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

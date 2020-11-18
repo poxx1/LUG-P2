@@ -9,7 +9,7 @@ namespace DAL_SQL
     public class Conexiones
     {
         //PC laburo: protected SqlConnection cn = new SqlConnection(@"Server=CPX-L7QBTQ41YG6\SQLEXPRESS01;Initial Catalog=Bohemia;Integrated Security=True");
-        protected SqlConnection cn = new SqlConnection(@"Server= CMD\SQLEXPRESS; Initial Catalog=Bohemia;Integrated Security=True");
+        protected SqlConnection cn = new SqlConnection(@"Server=DESKTOP-H982BU0\SQLEXPRESS; Initial Catalog=LastraJulianP2;Integrated Security=True");
 
         public string TestBD()
         {

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UI;
 
 namespace LastraJulianP2
 {
@@ -30,6 +31,27 @@ namespace LastraJulianP2
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            bool is_Open = false;
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Text == "UI_Empresas")
+                {
+                    is_Open = true;
+                    f.Focus();
+                    break;
+                }
+            }
+
+            if (is_Open == false)
+            {
+                UI_Empresas emp = new UI_Empresas();
+                emp.MdiParent = this;
+                emp.Show();
+            }
         }
     }
 }

@@ -10,7 +10,6 @@
       "Mapper/1.0.0": {
         "dependencies": {
           "BE_Propiedades": "1.0.0",
-          "BLL_Negocio": "1.0.0",
           "DAL_SQL": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -148,14 +147,6 @@
           "BE_Propiedades.dll": {}
         }
       },
-      "BLL_Negocio/1.0.0": {
-        "dependencies": {
-          "BE_Propiedades": "1.0.0"
-        },
-        "runtime": {
-          "BLL_Negocio.dll": {}
-        }
-      },
       "DAL_SQL/1.0.0": {
         "dependencies": {
           "System.Data.SqlClient": "4.8.2"
@@ -285,11 +276,6 @@
       "hashPath": "system.text.encoding.codepages.4.7.0.nupkg.sha512"
     },
     "BE_Propiedades/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BLL_Negocio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

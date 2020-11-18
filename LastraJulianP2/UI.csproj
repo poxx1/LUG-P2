@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_Negocio\BLL_Negocio.csproj" />
+  </ItemGroup>
+
 </Project>

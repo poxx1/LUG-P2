@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BE_Propiedades\BE_Propiedades.csproj" />
+    <ProjectReference Include="..\Mapper\Mapper.csproj" />
   </ItemGroup>
 
 </Project>

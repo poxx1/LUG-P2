@@ -228,19 +228,6 @@
           "bin/placeholder/BE_Propiedades.dll": {}
         }
       },
-      "BLL_Negocio/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "BE_Propiedades": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/BLL_Negocio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BLL_Negocio.dll": {}
-        }
-      },
       "DAL_SQL/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -889,11 +876,6 @@
       "path": "../BE_Propiedades/BE_Propiedades.csproj",
       "msbuildProject": "../BE_Propiedades/BE_Propiedades.csproj"
     },
-    "BLL_Negocio/1.0.0": {
-      "type": "project",
-      "path": "../BLL_Negocio/BLL_Negocio.csproj",
-      "msbuildProject": "../BLL_Negocio/BLL_Negocio.csproj"
-    },
     "DAL_SQL/1.0.0": {
       "type": "project",
       "path": "../DAL_SQL/DAL_SQL.csproj",
@@ -903,7 +885,6 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "BE_Propiedades >= 1.0.0",
-      "BLL_Negocio >= 1.0.0",
       "DAL_SQL >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -936,9 +917,6 @@
           "projectReferences": {
             "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\BE_Propiedades\\BE_Propiedades.csproj": {
               "projectPath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\BE_Propiedades\\BE_Propiedades.csproj"
-            },
-            "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\BLL_Negocio\\BLL_Negocio.csproj": {
-              "projectPath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\BLL_Negocio\\BLL_Negocio.csproj"
             },
             "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\DAL_SQL\\DAL_SQL.csproj": {
               "projectPath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\DAL_SQL\\DAL_SQL.csproj"
