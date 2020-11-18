@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Poxi\\.nuget\\packages\\": {}
+    "C:\\Users\\julian.lastra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\LastraJulianP2\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\julian.lastra\\Documents\\UAI\\LUG\\LUG-P2\\LastraJulianP2\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\LastraJulianP2\\UI.csproj",
-      "packagesPath": "C:\\Users\\Poxi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\LastraJulianP2\\obj\\",
+      "projectPath": "C:\\Users\\julian.lastra\\Documents\\UAI\\LUG\\LUG-P2\\LastraJulianP2\\UI.csproj",
+      "packagesPath": "C:\\Users\\julian.lastra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\julian.lastra\\Documents\\UAI\\LUG\\LUG-P2\\LastraJulianP2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Poxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julian.lastra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
