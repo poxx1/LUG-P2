@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "LastraJulianP2\UI.csproj", "{55F2E24B-25FD-4605-8327-F7A492FBCF35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Negocio", "BLL_Negocio\BLL_Negocio.csproj", "{5CEF3209-CBAD-4EDF-A3F6-3A93EF912596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL_Negocio", "BLL_Negocio\BLL_Negocio.csproj", "{5CEF3209-CBAD-4EDF-A3F6-3A93EF912596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE_Propiedades", "BE_Propiedades\BE_Propiedades.csproj", "{AB31E22F-3949-4F81-9212-84221AA873F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE_Propiedades", "BE_Propiedades\BE_Propiedades.csproj", "{AB31E22F-3949-4F81-9212-84221AA873F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_SQL", "DAL_SQL\DAL_SQL.csproj", "{BF977B23-6AAE-4DC6-970C-D8B1BBEAB3B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL_SQL", "DAL_SQL\DAL_SQL.csproj", "{BF977B23-6AAE-4DC6-970C-D8B1BBEAB3B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapper", "Mapper\Mapper.csproj", "{B557A56F-546F-40A8-A3B5-93CFEFE0D9AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapper", "Mapper\Mapper.csproj", "{B557A56F-546F-40A8-A3B5-93CFEFE0D9AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{DF754249-84F6-4A44-873C-023783D00B51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B557A56F-546F-40A8-A3B5-93CFEFE0D9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B557A56F-546F-40A8-A3B5-93CFEFE0D9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B557A56F-546F-40A8-A3B5-93CFEFE0D9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF754249-84F6-4A44-873C-023783D00B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF754249-84F6-4A44-873C-023783D00B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF754249-84F6-4A44-873C-023783D00B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF754249-84F6-4A44-873C-023783D00B51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

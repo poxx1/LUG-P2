@@ -50,41 +50,41 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(232, 27);
+            this.button1.Location = new System.Drawing.Point(12, 394);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 9;
-            this.button1.Text = "ABM1";
+            this.button1.Text = "Empresas";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(313, 27);
+            this.button2.Location = new System.Drawing.Point(93, 394);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
-            this.button2.Text = "ABM2";
+            this.button2.Text = "Transmisiones";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(394, 27);
+            this.button3.Location = new System.Drawing.Point(174, 394);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(102, 23);
             this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
+            this.button3.Text = "XML Transmisiones";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(475, 27);
+            this.button4.Location = new System.Drawing.Point(407, 391);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(94, 23);
             this.button4.TabIndex = 9;
-            this.button4.Text = "button4";
+            this.button4.Text = "CERRAR VENTANAS";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // MDI_Core

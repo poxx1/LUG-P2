@@ -69,6 +69,7 @@
             this.bt_Update.TabIndex = 1;
             this.bt_Update.Text = "UPDATE";
             this.bt_Update.UseVisualStyleBackColor = true;
+            this.bt_Update.Click += new System.EventHandler(this.bt_Update_Click);
             // 
             // bt_Delete
             // 
@@ -78,6 +79,7 @@
             this.bt_Delete.TabIndex = 2;
             this.bt_Delete.Text = "DELETE";
             this.bt_Delete.UseVisualStyleBackColor = true;
+            this.bt_Delete.Click += new System.EventHandler(this.bt_Delete_Click);
             // 
             // bt_Close
             // 
@@ -87,6 +89,7 @@
             this.bt_Close.TabIndex = 3;
             this.bt_Close.Text = "CLOSE";
             this.bt_Close.UseVisualStyleBackColor = true;
+            this.bt_Close.Click += new System.EventHandler(this.bt_Close_Click);
             // 
             // label1
             // 

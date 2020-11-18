@@ -8,13 +8,12 @@ using System.Text;
 
 namespace BLL_Negocio
 {
-    class StoredProcedures
+    public class StoredProcedures
     {
-        public void Insert(BE_Servicios srv)
+        public void Insert(BE_Servicios srv,string query)
         {
             var c = new Conexiones();
             var aR = new ArrayList();
-            string query = "insertTransmision";
 
             if (srv.Codigo != 0)
             {
@@ -23,7 +22,6 @@ namespace BLL_Negocio
                 p1.Value = srv.Codigo;
                 p1.SqlDbType = System.Data.SqlDbType.NVarChar;
                 aR.Add(p1);
-                query = "insertT";
             }
 
             var p2 = new SqlParameter();
@@ -51,15 +49,15 @@ namespace BLL_Negocio
             aR.Add(p5);
 
             var p6 = new SqlParameter();
-            p2.ParameterName = "@Costo";
-            p2.Value = srv.Costo;
-            p2.SqlDbType = System.Data.SqlDbType.Int;
+            p6.ParameterName = "@Costo";
+            p6.Value = srv.Costo;
+            p6.SqlDbType = System.Data.SqlDbType.Int;
             aR.Add(p6);
 
             var p7 = new SqlParameter();
-            p2.ParameterName = "@Tipo";
-            p2.Value = srv.Costo;
-            p2.SqlDbType = System.Data.SqlDbType.Int;
+            p7.ParameterName = "@Tipo";
+            p7.Value = srv.Costo;
+            p7.SqlDbType = System.Data.SqlDbType.Int;
             aR.Add(p7);
 
             c.Write(query, aR);

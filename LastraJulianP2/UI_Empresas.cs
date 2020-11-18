@@ -60,5 +60,10 @@ namespace UI
             dataGridView1.DataSource = c.Load();
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
         }
+
+        private void bt_Close_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

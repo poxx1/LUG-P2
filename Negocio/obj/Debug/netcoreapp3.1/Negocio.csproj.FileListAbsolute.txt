@@ -1,0 +1,16 @@
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\Negocio.deps.json
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\Negocio.dll
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\Negocio.pdb
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\obj\Debug\netcoreapp3.1\Negocio.csprojAssemblyReference.cache
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfoInputs.cache
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfo.cs
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\BE_Propiedades.dll
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\BE_Propiedades.pdb
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CopyComplete
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\DAL_SQL.dll
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\Mapper.dll
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\DAL_SQL.pdb
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\bin\Debug\netcoreapp3.1\Mapper.pdb
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CoreCompileInputs.cache

@@ -28,5 +28,10 @@ namespace UI
             listBox1.DataSource = x.Read();
             listBox1.DisplayMember = "Streaming";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
