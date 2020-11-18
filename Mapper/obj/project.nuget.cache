@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TuflyDQsjfvB43iS+62EaEX6cCrwcyuIquPI7uHOk1Yu8ng/e1PZjKhHzHN2NZ0HsiHQeAS3q+L1yLXMPlN5jw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\Mapper\\Mapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Poxi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Poxi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

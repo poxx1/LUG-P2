@@ -1,0 +1,9 @@
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\bin\Debug\netstandard2.0\BE_Propiedades.deps.json
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\bin\Debug\netstandard2.0\BE_Propiedades.dll
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\bin\Debug\netstandard2.0\BE_Propiedades.pdb
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\obj\Debug\netstandard2.0\BE_Propiedades.csprojAssemblyReference.cache
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\obj\Debug\netstandard2.0\BE_Propiedades.AssemblyInfoInputs.cache
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\obj\Debug\netstandard2.0\BE_Propiedades.AssemblyInfo.cs
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\obj\Debug\netstandard2.0\BE_Propiedades.csproj.CoreCompileInputs.cache
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\obj\Debug\netstandard2.0\BE_Propiedades.dll
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\BE_Propiedades\obj\Debug\netstandard2.0\BE_Propiedades.pdb

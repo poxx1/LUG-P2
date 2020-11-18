@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "u0CJr6R4C40T3/Yqwju/z9skBi8K+6w/LA1UKQbXUZdBxwKzXqT2rk5DHBX5CKHZOT3TLLJX8BE/GnqcbRbviw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\BE_Propiedades\\BE_Propiedades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Poxi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Poxi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

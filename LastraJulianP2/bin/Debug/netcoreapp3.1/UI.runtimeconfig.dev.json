@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\julian.lastra\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\julian.lastra\\.nuget\\packages"
+      "C:\\Users\\Poxi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Poxi\\.nuget\\packages"
     ]
   }
 }
