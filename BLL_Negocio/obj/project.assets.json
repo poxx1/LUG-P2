@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "BE_Propiedades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BE_Propiedades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BE_Propiedades.dll": {}
+        }
       }
     }
   },
@@ -172,10 +182,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "BE_Propiedades/1.0.0": {
+      "type": "project",
+      "path": "../BE_Propiedades/BE_Propiedades.csproj",
+      "msbuildProject": "../BE_Propiedades/BE_Propiedades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BE_Propiedades >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -204,7 +220,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\BE_Propiedades\\BE_Propiedades.csproj": {
+              "projectPath": "C:\\Users\\Poxi\\Documents\\UAI\\2020\\LUG\\LUG-P2\\BE_Propiedades\\BE_Propiedades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

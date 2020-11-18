@@ -20,8 +20,6 @@ C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\bin\Debug\netcoreapp3
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\bin\Debug\netcoreapp3.1\UI.dll
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\bin\Debug\netcoreapp3.1\UI.pdb
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.csprojAssemblyReference.cache
-C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.ABM1.resources
-C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.ABM2.resources
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\LastraJulianP2.MDI_Core.resources
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.csproj.GenerateResource.cache
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
@@ -47,3 +45,5 @@ C:\Users\julian.lastra\Documents\UAI\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcore
 C:\Users\julian.lastra\Documents\UAI\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.dll
 C:\Users\julian.lastra\Documents\UAI\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.pdb
 C:\Users\julian.lastra\Documents\UAI\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.UI_Empresas.resources
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\LastraJulianP2\obj\Debug\netcoreapp3.1\UI.UI_Servicios.resources

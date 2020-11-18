@@ -1,6 +1,6 @@
 ﻿namespace UI
 {
-    partial class ABM1
+    partial class UI_Empresas
     {
         /// <summary>
         /// Required designer variable.

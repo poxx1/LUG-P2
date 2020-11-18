@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class ABM2 : Form
+    public partial class UI_Servicios : Form
     {
-        public ABM2()
+        public UI_Servicios()
         {
             InitializeComponent();
         }

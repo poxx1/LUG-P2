@@ -6,3 +6,4 @@ C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapp
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapper.csproj.CoreCompileInputs.cache
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapper.dll
 C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapper.pdb
+C:\Users\Poxi\Documents\UAI\2020\LUG\LUG-P2\Mapper\obj\Debug\netstandard2.0\Mapper.csprojAssemblyReference.cache

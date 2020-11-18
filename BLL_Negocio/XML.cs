@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BE_Propiedades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,38 +12,48 @@ namespace BLL_Negocio
     {
         public string documents = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-        public List<Object> Read()
+        public List<BE_Servicios> Read()
         {
             string path = documents + @"UAI\LUG\LUG-P2\Documents\file.xml";
 
-            var query = from Programs in XElement.Load(path).Elements("Programs")
-                        select new Object //Aca reemplazo por la clase BE_Clients o lo que sea
+            var query = from Servicios in XElement.Load(path).Elements("Servicios")
+                        select new BE_Servicios //Aca reemplazo por la clase BE_Clients o lo que sea
                         {
                             //Aca van las propiedades de BE_Programas
-                           // name = Convert.ToString(Programs.Attribute("Program").Value).Trim(),
-                           // version = Convert.ToString(Programs.Attribute("Program").Value).Trim()
+                            Tipo = Convert.ToString(Servicios.Attribute("Tipo").Value).Trim(),
+
+                            Calidad = Convert.ToString(Servicios.Attribute("Calidad").Value).Trim(),
+
+                            Nombre = Convert.ToString(Servicios.Attribute("Nombre").Value).Trim(),
+
+                            Minutos = Int32.Parse(Convert.ToString(Servicios.Attribute("Minutos").Value).Trim()),
+
+                            Fecha = Convert.ToDateTime(Convert.ToString(Servicios.Attribute("Fecha").Value).Trim())
+                            
                         };
-            List<Object> Lista = query.ToList<Object>();
+
+            List<BE_Servicios> Lista = query.ToList<BE_Servicios>();
             return Lista;
 
         }
 
-        public void Write(string uno, string dos, string tres)
+        public void Write(string Servicio, string Calidad, string Nombre, string Minutos, string Fecha)
         {
             string path = documents + @"UAI\LUG\LUG-P2\Documents\file.xml";
             XDocument doc = XDocument.Load(path);
 
-            doc.Element("Programs").Add(new XElement("Programs",
-                new XAttribute("Program",uno),
-                new XElement("version",dos),
-                new XElement("platofm",tres)
+            doc.Element("Servicios").Add(new XElement("Streaming",
+                new XAttribute("Tipo",Servicio),
+                new XElement("Calidad",Calidad),
+                new XElement("Nombre", Nombre),
+                new XElement("Minutos", Minutos),
+                new XElement("Fecha",Fecha)
                 ));
 
             doc.Save(path);
-
         }
 
-        public void Create(string uno, string dos, string tres)
+        public void Create(string Servicio, string Calidad, string Nombre, string Minutos, string Fecha)
         {
             string path = documents + @"UAI\LUG\LUG-P2\Documents\file.xml";
 
@@ -52,12 +63,14 @@ namespace BLL_Negocio
             file.Indentation = 2;
             file.WriteStartDocument(true);
             
-            file.WriteStartElement("Programs");
-            file.WriteAttributeString("Program Atributo", uno);
+            file.WriteStartElement("Servicios");
+            file.WriteAttributeString("Streaming", Servicio);
             
-            file.WriteElementString("element Version", dos);
-            file.WriteElementString("element Platform", tres);
-            
+            file.WriteElementString("Calidad", Calidad);
+            file.WriteElementString("Nombre", Nombre);
+            file.WriteElementString("Minutos", Minutos);
+            file.WriteElementString("Fecha", Fecha);
+
             file.WriteEndElement();
             file.Close();
         }
