@@ -16,22 +16,21 @@ namespace BLL_Negocio
         {
             string path = documents + @"\UAI\LUG\LUG-P2\Documents\file.xml";
 
-            var query = from Servicios in XElement.Load(path).Elements("Streaming")
+            var query = from Servicio in XElement.Load(path).Elements("Servicio")
                         select new BE_Servicios //Aca reemplazo por la clase BE_Clients o lo que sea
                         {
                             //Aca van las propiedades de BE_Programas
-                            Tipo = Convert.ToString(Servicios.Attribute("Tipo").Value).Trim(),
+                            Tipo = Convert.ToString(Servicio.Attribute("Tipo").Value).Trim(),
 
-                            Calidad = Convert.ToString(Servicios.Attribute("Calidad").Value).Trim(),
+                            Calidad = Convert.ToString(Servicio.Attribute("Calidad").Value).Trim(),
 
-                            Nombre = Convert.ToString(Servicios.Attribute("Nombre").Value).Trim(),
+                            Nombre = Convert.ToString(Servicio.Attribute("Nombre").Value).Trim(),
 
-                            Minutos = Int32.Parse(Convert.ToString(Servicios.Attribute("Minutos").Value).Trim()),
+                            Minutos = Int32.Parse(Convert.ToString(Servicio.Attribute("Minutos").Value).Trim()),
 
-                            Fecha = Convert.ToDateTime(Convert.ToString(Servicios.Attribute("Fecha").Value).Trim())
+                            Fecha = Convert.ToDateTime(Convert.ToString(Servicio.Attribute("Fecha").Value).Trim())
                             
                         };
-
             List<BE_Servicios> Lista = query.ToList<BE_Servicios>();
             return Lista;
 
@@ -42,7 +41,7 @@ namespace BLL_Negocio
             string path = documents + @"\UAI\LUG\LUG-P2\Documents\file.xml";
             XDocument doc = XDocument.Load(path);
 
-            doc.Element("Servicios").Add(new XElement("Streaming",
+            doc.Element("Servicio").Add(new XElement("Streaming",
                 new XAttribute("Tipo",Servicio),
                 new XElement("Calidad",Calidad),
                 new XElement("Nombre", Nombre),
@@ -63,9 +62,11 @@ namespace BLL_Negocio
             file.Indentation = 2;
             file.WriteStartDocument(true);
             
-            file.WriteStartElement("Streaming");
+            file.WriteStartElement("Servicio");
+
+            file.WriteStartElement("Streaming", Calidad);
             file.WriteAttributeString("Tipo", Servicio);
-            
+
             file.WriteElementString("Calidad", Calidad);
             file.WriteElementString("Nombre", Nombre);
             file.WriteElementString("Minutos", Minutos);

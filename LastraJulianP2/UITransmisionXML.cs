@@ -19,7 +19,7 @@ namespace UI
         private void button1_Click(object sender, EventArgs e)
         {
             var x = new XML();
-            x.Create("1","1","1","1","1");
+            x.Create("LIVE","SD","Conferencia","45","16/11/2020");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -32,6 +32,17 @@ namespace UI
         private void button4_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void UITransmisionXML_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var x = new XML();
+            x.Write("VOD", "HD", "Casamiento", "65", "15/11/2020");
         }
     }
 }

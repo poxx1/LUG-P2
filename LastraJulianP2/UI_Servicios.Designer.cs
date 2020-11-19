@@ -257,6 +257,7 @@
             this.Controls.Add(this.bt_Insert);
             this.Name = "UI_Servicios";
             this.Text = "sv";
+            this.Load += new System.EventHandler(this.UI_Servicios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

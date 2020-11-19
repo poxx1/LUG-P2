@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Servicio>
+  <Streaming Tipo="LIVE" xmlns="SD">
+    <Calidad>SD</Calidad>
+    <Nombre>Conferencia</Nombre>
+    <Minutos>45</Minutos>
+    <Fecha>16/11/2020</Fecha>
+  </Streaming>
+  <Streaming Tipo="VOD">
+    <Calidad>HD</Calidad>
+    <Nombre>Casamiento</Nombre>
+    <Minutos>65</Minutos>
+    <Fecha>15/11/2020</Fecha>
+  </Streaming>
+</Servicio>

@@ -16,10 +16,11 @@ namespace Negocio
         {
             string path = documents + @"\UAI\LUG\LUG-P2\Documents\file.xml";
 
-            var query = from Servicios in XElement.Load(path).Elements("Streaming")
+            var query = from Servicios in XElement.Load(path).Elements("Servicios")
                         select new BE_Servicios //Aca reemplazo por la clase BE_Clients o lo que sea
                         {
                             //Aca van las propiedades de BE_Programas
+                            
                             Tipo = Convert.ToString(Servicios.Attribute("Tipo").Value).Trim(),
 
                             Calidad = Convert.ToString(Servicios.Attribute("Calidad").Value).Trim(),
@@ -42,7 +43,7 @@ namespace Negocio
             string path = documents + @"\UAI\LUG\LUG-P2\Documents\file.xml";
             XDocument doc = XDocument.Load(path);
 
-            doc.Element("Servicios").Add(new XElement("Streaming",
+            doc.Element("Servicios").Add(new XElement("Servicios",
                 new XAttribute("Tipo", Servicio),
                 new XElement("Calidad", Calidad),
                 new XElement("Nombre", Nombre),
@@ -63,9 +64,9 @@ namespace Negocio
             file.Indentation = 2;
             file.WriteStartDocument(true);
 
-            file.WriteStartElement("Streaming");
+            file.WriteStartElement("Servicios");
+            file.WriteElementString("Streaming", Calidad);
             file.WriteAttributeString("Tipo", Servicio);
-
             file.WriteElementString("Calidad", Calidad);
             file.WriteElementString("Nombre", Nombre);
             file.WriteElementString("Minutos", Minutos);

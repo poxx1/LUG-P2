@@ -74,6 +74,7 @@
             this.bt_Update.TabIndex = 1;
             this.bt_Update.Text = "UPDATE";
             this.bt_Update.UseVisualStyleBackColor = true;
+            this.bt_Update.Click += new System.EventHandler(this.bt_Update_Click);
             // 
             // bt_Insert
             // 
@@ -165,6 +166,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(120, 23);
             this.comboBox1.TabIndex = 13;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // dataGridView1
             // 

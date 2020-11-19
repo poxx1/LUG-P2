@@ -32,7 +32,7 @@ namespace UI
             bE_Empresas.RazonSocial = textBox2.Text;
             bE_Empresas.Cuit = Int32.Parse(textBox3.Text);
             bE_Empresas.Correo = textBox4.Text;
-            //bE_Empresas.Servicio = comboBox1.Text;
+            bE_Empresas.ServicioN = Int32.Parse(comboBox1.Text);
         }
 
         private void bt_Delete_Click(object sender, EventArgs e)
@@ -42,7 +42,7 @@ namespace UI
             SetEmpresa();
 
             n_Empresas = new N_Empresas();
-            n_Empresas.Insert(bE_Empresas);
+            n_Empresas.Delete(bE_Empresas);
 
             LoadE();
 
@@ -64,6 +64,23 @@ namespace UI
         private void bt_Close_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_Update_Click(object sender, EventArgs e)
+        {
+            string id = textBox1.Text;
+
+            SetEmpresa();
+
+            n_Empresas = new N_Empresas();
+            n_Empresas.Update(bE_Empresas);
+
+            LoadE();
         }
     }
 }

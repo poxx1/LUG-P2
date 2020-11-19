@@ -14,7 +14,7 @@ namespace Mapper
             var Ds = new DataSet();
             var d = new Conexiones();
             var Lista = new List<BE_Empresas>();
-            int counter = 1;
+
 
             var emp = new BE_Empresas();
             var srv = new BE_Servicios();
@@ -36,9 +36,10 @@ namespace Mapper
                     emp.ServicioN = Int32.Parse(fila[4].ToString());
 
                     #region 1 - Muchos
-                    servicio = Int32.Parse(fila[4].ToString());
 
                     #region Traer Servicios
+                    servicio = emp.ServicioN;
+
                     string query2 = "Select Codigo,Calidad,Nombre,Minutos,Fecha from Transmisiones Where Codigo = " + servicio + "";
 
                     Ds = d.ReadDS(query2);
@@ -55,7 +56,9 @@ namespace Mapper
 
                             emp.Servicio = srv;
 
-                            counter++;
+                            Lista.Add(emp);
+
+
                         }
                     }
 
@@ -65,10 +68,8 @@ namespace Mapper
 
                     #endregion
 
-                    Lista.Add(emp);
-
-                    counter++;
-                }
+                }//Cierra el forich
+            
             }
 
             else
@@ -80,21 +81,21 @@ namespace Mapper
         public bool Insert(BE_Empresas l)
         {
             var a = new Conexiones();
-            var query = "INSERT into Empresas (Codigo,RazonSocial,CUIT,Correo,Servicio) VALUES ('" + l.Codigo + "','" + l.RazonSocial + "','" + l.Cuit + "','" + l.Correo + "','" + l.Servicio + "');";
+            var query = "INSERT into Empresas (Codigo,RazonSocial,CUIT,Correo,Servicio) VALUES ('" + l.Codigo + "','" + l.RazonSocial + "','" + l.Cuit + "','" + l.Correo + "','" + l.ServicioN + "');";
             return a.Write(query);
         }
 
         public bool Update(BE_Empresas l)
         {
             var a = new Conexiones();
-            var query = "UPDATE Empresas SET Nombre_Localidad = '" + l.Codigo + "' WHERE ID_Localidad = " + l.RazonSocial + "";
+            var query = "UPDATE Empresas SET Codigo = "+l.Codigo+",RazonSocial = \'"+l.RazonSocial+"\',CUIT="+l.Cuit+",Correo=\'"+l.Correo+ "\',Servicio=" + l.ServicioN+" WHERE Codigo = " + l.Codigo + ";";
             return a.Write(query);
         }
 
         public bool Delete(BE_Empresas l)
         {
             var a = new Conexiones();
-            var query = "DELETE FROM Empresas WHERE ID_Localidad = " + l.Codigo + "";
+            var query = "DELETE FROM Empresas WHERE Codigo = " + l.Codigo + "";
             return a.Write(query);
         }
     }
